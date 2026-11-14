@@ -59,7 +59,7 @@ function setupPrivacySession(sess) {
 
   // Configure Encrypted DNS (DoH) - Mullvad Ad-blocking DNS
   try {
-    sess.configureHostResolver({
+    app.configureHostResolver({
       enableBuiltInResolver: true,
       secureDnsMode: 'secure',
       secureDnsServers: [
