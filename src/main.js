@@ -152,8 +152,8 @@ function createNewTab(initialUrl = 'https://www.bing.com') {
 
   view.webContents.on('did-stop-loading', () => {
     tab.isLoading = false;
-    tab.canGoBack = view.webContents.canGoBack();
-    tab.canGoForward = view.webContents.canGoForward();
+    tab.canGoBack = view.webContents.navigationHistory ? view.webContents.navigationHistory.canGoBack() : view.webContents.canGoBack();
+    tab.canGoForward = view.webContents.navigationHistory ? view.webContents.navigationHistory.canGoForward() : view.webContents.canGoForward();
     tab.url = view.webContents.getURL();
     notifyTabUpdate(tab);
   });
@@ -300,8 +300,12 @@ ipcMain.handle('close-tab', (e, id) => {
 ipcMain.handle('go-back', () => {
   if (activeTabId && tabs.has(activeTabId)) {
     const tab = tabs.get(activeTabId);
-    if (tab.view && tab.view.webContents.canGoBack()) {
-      tab.view.webContents.goBack();
+    if (tab.view) {
+      if (tab.view.webContents.navigationHistory) {
+        if (tab.view.webContents.navigationHistory.canGoBack()) tab.view.webContents.navigationHistory.goBack();
+      } else if (tab.view.webContents.canGoBack()) {
+        tab.view.webContents.goBack();
+      }
     }
   }
 });
@@ -309,8 +313,12 @@ ipcMain.handle('go-back', () => {
 ipcMain.handle('go-forward', () => {
   if (activeTabId && tabs.has(activeTabId)) {
     const tab = tabs.get(activeTabId);
-    if (tab.view && tab.view.webContents.canGoForward()) {
-      tab.view.webContents.goForward();
+    if (tab.view) {
+      if (tab.view.webContents.navigationHistory) {
+        if (tab.view.webContents.navigationHistory.canGoForward()) tab.view.webContents.navigationHistory.goForward();
+      } else if (tab.view.webContents.canGoForward()) {
+        tab.view.webContents.goForward();
+      }
     }
   }
 });
