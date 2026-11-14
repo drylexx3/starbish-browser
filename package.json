@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder --linux deb AppImage"
+    "dist": "electron-builder --linux deb AppImage --publish never"
   },
   "keywords": [
     "browser",
@@ -17,7 +17,10 @@
     "brave",
     "starbish"
   ],
-  "author": "drylexx3",
+  "author": {
+    "name": "drylexx3",
+    "email": "drylexx3@users.noreply.github.com"
+  },
   "license": "GPL-3.0",
   "dependencies": {
     "@ghostery/adblocker-electron": "^2.4.45",
@@ -34,6 +37,7 @@
       "output": "dist"
     },
     "linux": {
+      "maintainer": "Starbish Team <drylexx3@users.noreply.github.com>",
       "target": [
         "AppImage",
         "deb"
