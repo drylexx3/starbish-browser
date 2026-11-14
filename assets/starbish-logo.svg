@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#181a29"/>
+      <stop offset="60%" stop-color="#0d0e17"/>
+      <stop offset="100%" stop-color="#07070c"/>
+    </radialGradient>
+
+    <!-- Stardish Primary Neon Gradient -->
+    <linearGradient id="neonStar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="45%" stop-color="#7000ff"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+
+    <!-- Inner Core Glow Gradient -->
+    <linearGradient id="innerGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7000ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Shield Border Gradient -->
+    <linearGradient id="shieldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7000ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="outerGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28" result="blur2"/>
+    </filter>
+  </defs>
+
+  <!-- App Icon Base: Rounded Squircle -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bgGrad)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="2"/>
+
+  <!-- Cyber Grid / Orbit Accent -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="url(#shieldBorder)" stroke-width="1.5" stroke-dasharray="8 12" opacity="0.4"/>
+  <circle cx="256" cy="256" r="195" fill="none" stroke="#7000ff" stroke-width="1" opacity="0.2"/>
+
+  <!-- Shield Shape (Backdrop for Privacy) -->
+  <path d="M 256 80 
+           C 340 80, 395 108, 410 135 
+           C 410 270, 355 370, 256 425 
+           C 157 370, 102 270, 102 135 
+           C 117 108, 172 80, 256 80 Z" 
+        fill="none" 
+        stroke="url(#shieldBorder)" 
+        stroke-width="3" 
+        opacity="0.65"/>
+
+  <!-- Glow effect under the Star -->
+  <path d="M 256 115
+           L 292 205
+           L 388 215
+           L 316 280
+           L 336 375
+           L 256 325
+           L 176 375
+           L 196 280
+           L 124 215
+           L 220 205 Z" 
+        fill="url(#neonStar)" 
+        filter="url(#outerGlow)" 
+        opacity="0.6"/>
+
+  <!-- Main Starbish Star Shape (Organic Curved Star / Starfish + Cyber Star) -->
+  <path d="M 256 120
+           C 264 175, 275 195, 305 210
+           C 345 215, 375 220, 385 228
+           C 365 248, 335 268, 320 288
+           C 328 325, 335 360, 330 368
+           C 305 348, 278 335, 256 332
+           C 234 335, 207 348, 182 368
+           C 177 360, 184 325, 192 288
+           C 177 268, 147 248, 127 228
+           C 137 220, 167 215, 207 210
+           C 237 195, 248 175, 256 120 Z"
+        fill="url(#neonStar)"
+        filter="url(#glow)"/>
+
+  <!-- Star Highlights / Facets -->
+  <!-- Top Ray Highlight -->
+  <path d="M 256 120 C 258 175, 266 195, 290 215 L 256 260 Z" fill="#ffffff" opacity="0.3"/>
+  <!-- Core Diamond Accent -->
+  <polygon points="256,220 278,256 256,292 234,256" fill="url(#innerGlow)"/>
+  
+  <!-- Central Sparkle Point -->
+  <circle cx="256" cy="256" r="6" fill="#ffffff" filter="url(#glow)"/>
+</svg>

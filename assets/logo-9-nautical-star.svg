@@ -1,0 +1,34 @@
+<!-- 9. Nautical Compass Star: Classic maritime navigation star (black & gold/crimson alternating facets) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <rect width="256" height="256" rx="56" fill="#1C1D21"/>
+  <!-- Outer subtle circular compass dial -->
+  <circle cx="128" cy="128" r="92" fill="none" stroke="#2D3039" stroke-width="3"/>
+  <circle cx="128" cy="128" r="82" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="2 6"/>
+
+  <g transform="translate(128, 128)">
+    <!-- 5-Pointed Classic Nautical Star with Alternating Shaded Facets -->
+    <!-- Point 1: North -->
+    <polygon points="0,-86 0,0 20,-28" fill="#F59E0B"/>
+    <polygon points="0,-86 0,0 -20,-28" fill="#D97706"/>
+
+    <!-- Point 2: North East -->
+    <polygon points="82,-26 0,0 28,-20" fill="#FBBF24"/>
+    <polygon points="82,-26 0,0 36,12" fill="#D97706"/>
+
+    <!-- Point 3: South East -->
+    <polygon points="51,69 0,0 36,12" fill="#F59E0B"/>
+    <polygon points="51,69 0,0 0,38" fill="#B45309"/>
+
+    <!-- Point 4: South West -->
+    <polygon points="-51,69 0,0 0,38" fill="#D97706"/>
+    <polygon points="-51,69 0,0 -36,12" fill="#92400E"/>
+
+    <!-- Point 5: North West -->
+    <polygon points="-82,-26 0,0 -36,12" fill="#F59E0B"/>
+    <polygon points="-82,-26 0,0 -28,-20" fill="#B45309"/>
+
+    <!-- Center Pivot Pin -->
+    <circle cx="0" cy="0" r="7" fill="#FFFBEB"/>
+    <circle cx="0" cy="0" r="3" fill="#1C1D21"/>
+  </g>
+</svg>

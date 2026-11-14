@@ -1,0 +1,33 @@
+<!-- 16. Cyber Hex Node: Tor/Wireguard style privacy node in obsidian & emerald green -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <rect width="256" height="256" rx="56" fill="#0D1117"/>
+  <g transform="translate(128, 128)">
+    <!-- Outer Heavy Hexagon -->
+    <polygon points="0,-92 80,-46 80,46 0,92 -80,46 -80,-46" 
+             fill="#161B22" stroke="#30363D" stroke-width="4"/>
+
+    <!-- Inner Emerald Hexagon Border -->
+    <polygon points="0,-76 66,-38 66,38 0,76 -66,38 -66,-38" 
+             fill="none" stroke="#10B981" stroke-width="2.5" opacity="0.6"/>
+
+    <!-- Geometric Privacy Star Inside (Clean Flat Emerald & Mint) -->
+    <!-- Point Top -->
+    <polygon points="0,-60 12,-16 0,0" fill="#34D399"/>
+    <polygon points="0,-60 -12,-16 0,0" fill="#10B981"/>
+    <!-- Point Right -->
+    <polygon points="56,-18 16,8 0,0" fill="#34D399"/>
+    <polygon points="56,-18 24,-12 0,0" fill="#059669"/>
+    <!-- Point Bottom Right -->
+    <polygon points="34,50 0,22 0,0" fill="#10B981"/>
+    <polygon points="34,50 16,8 0,0" fill="#047857"/>
+    <!-- Point Bottom Left -->
+    <polygon points="-34,50 0,22 0,0" fill="#059669"/>
+    <polygon points="-34,50 -16,8 0,0" fill="#047857"/>
+    <!-- Point Left -->
+    <polygon points="-56,-18 -16,8 0,0" fill="#10B981"/>
+    <polygon points="-56,-18 -24,-12 0,0" fill="#34D399"/>
+
+    <!-- Central Lock/Cipher Dot -->
+    <circle cx="0" cy="0" r="5" fill="#ECFDF5"/>
+  </g>
+</svg>

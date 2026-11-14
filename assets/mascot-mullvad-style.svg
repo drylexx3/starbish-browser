@@ -1,0 +1,42 @@
+<!-- Style 1: Mascot style like Mullvad Browser / DuckDuckGo. Bold ink lines, flat solid colors, zero gradients, zero glow -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <!-- Clean bright solid circle badge (Mullvad style) -->
+  <circle cx="128" cy="128" r="120" fill="#FFCC00" stroke="#1A1A1A" stroke-width="10"/>
+
+  <!-- Starfish Mascot with bold comic/vector ink lines -->
+  <g stroke="#1A1A1A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body of Starfish in flat warm coral -->
+    <path d="M 128 32
+             C 136 68, 146 88, 185 96
+             C 220 102, 230 118, 222 134
+             C 192 144, 172 156, 168 190
+             C 165 220, 145 228, 128 214
+             C 111 228, 91 220, 88 190
+             C 84 156, 64 144, 34 134
+             C 26 118, 36 102, 71 96
+             C 110 88, 120 68, 128 32 Z" 
+          fill="#FF5733"/>
+
+    <!-- Cute/Cool Sunglasses / Spy glasses (Privacy theme, like Mullvad's mole goggles) -->
+    <!-- Left Lens -->
+    <rect x="76" y="112" width="44" height="28" rx="8" fill="#1A1A1A"/>
+    <!-- Right Lens -->
+    <rect x="136" y="112" width="44" height="28" rx="8" fill="#1A1A1A"/>
+    <!-- Bridge -->
+    <line x1="120" y1="122" x2="136" y2="122" stroke="#1A1A1A" stroke-width="8"/>
+
+    <!-- Lens Glare (Classic cartoon white slant) -->
+    <line x1="84" y1="120" x2="94" y2="132" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="144" y1="120" x2="154" y2="132" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Smile -->
+    <path d="M 116 156 Q 128 166 140 156" fill="none" stroke="#1A1A1A" stroke-width="7"/>
+
+    <!-- Star texture spots (flat comic dots) -->
+    <circle cx="128" cy="62" r="4" fill="#E74C3C" stroke="none"/>
+    <circle cx="198" cy="118" r="4" fill="#E74C3C" stroke="none"/>
+    <circle cx="152" cy="186" r="4" fill="#E74C3C" stroke="none"/>
+    <circle cx="104" cy="186" r="4" fill="#E74C3C" stroke="none"/>
+    <circle cx="58" cy="118" r="4" fill="#E74C3C" stroke="none"/>
+  </g>
+</svg>

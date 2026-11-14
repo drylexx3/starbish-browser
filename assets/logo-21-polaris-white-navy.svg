@@ -1,0 +1,48 @@
+<!-- 21. The Polaris Star: Ultra-clean titanium white & layered navy blue on obsidian dark -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Deep Obsidian Dark Background -->
+  <rect width="512" height="512" rx="116" fill="#080A10"/>
+
+  <defs>
+    <!-- Deep Navy to Midnight Gradient -->
+    <linearGradient id="navyFacet1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="navyFacet2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(256, 256)">
+    <!-- Fine Navy Circular Dial Rim -->
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#172554" stroke-width="4"/>
+    <circle cx="0" cy="0" r="162" fill="none" stroke="#1E3A8A" stroke-width="1.5" stroke-dasharray="4 10" opacity="0.6"/>
+
+    <!-- 5-Pointed Faceted Polaris Star: Alternating Crisp Pure White and Deep Navy -->
+    <!-- North Arm -->
+    <polygon points="0,-154 0,0 36,-50" fill="#FFFFFF"/>
+    <polygon points="0,-154 0,0 -36,-50" fill="url(#navyFacet1)"/>
+
+    <!-- North-East Arm -->
+    <polygon points="146,-47 0,0 50,-36" fill="#F8FAFC"/>
+    <polygon points="146,-47 0,0 64,21" fill="url(#navyFacet1)"/>
+
+    <!-- South-East Arm -->
+    <polygon points="90,124 0,0 64,21" fill="#FFFFFF"/>
+    <polygon points="90,124 0,0 0,68" fill="url(#navyFacet1)"/>
+
+    <!-- South-West Arm -->
+    <polygon points="-90,124 0,0 0,68" fill="#F8FAFC"/>
+    <polygon points="-90,124 0,0 -64,21" fill="url(#navyFacet1)"/>
+
+    <!-- North-West Arm -->
+    <polygon points="-146,-47 0,0 -64,21" fill="#FFFFFF"/>
+    <polygon points="-146,-47 0,0 -50,-36" fill="url(#navyFacet1)"/>
+
+    <!-- Central Floating Diamond Pin in Pure White -->
+    <polygon points="0,-24 24,0 0,24 -24,0" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="6" fill="#080A10"/>
+  </g>
+</svg>

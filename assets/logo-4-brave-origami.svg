@@ -1,0 +1,28 @@
+<!-- 4. Pure Brave / Mozilla style: Vibrant orange background, sharp geometric origami mark -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <!-- Brave-style vibrant warm background -->
+  <rect width="256" height="256" rx="54" fill="#FB542B"/>
+  
+  <g transform="translate(128, 128)">
+    <!-- Central Origami Starfish in crisp white & deep red/orange facet shadows -->
+    <!-- Top arm -->
+    <polygon points="0,-82 22,-20 0,-6" fill="#FFFFFF"/>
+    <polygon points="0,-82 -22,-20 0,-6" fill="#FFF1ED"/>
+    <!-- Right arm -->
+    <polygon points="78,-24 22,-20 8,0" fill="#FFFFFF"/>
+    <polygon points="78,-24 34,26 8,0" fill="#FFD7CC"/>
+    <!-- Bottom Right arm -->
+    <polygon points="48,72 34,26 0,10" fill="#FFD7CC"/>
+    <polygon points="48,72 0,36 0,10" fill="#FFAA94"/>
+    <!-- Bottom Left arm -->
+    <polygon points="-48,72 0,36 0,10" fill="#FFAA94"/>
+    <polygon points="-48,72 -34,26 0,10" fill="#FFD7CC"/>
+    <!-- Left arm -->
+    <polygon points="-78,-24 -34,26 -8,0" fill="#FFD7CC"/>
+    <polygon points="-78,-24 -22,-20 -8,0" fill="#FFFFFF"/>
+
+    <!-- Center core shield diamond in deep navy/dark contrast -->
+    <polygon points="0,-18 16,0 0,18 -16,0" fill="#1C1E24"/>
+    <circle cx="0" cy="0" r="4" fill="#FB542B"/>
+  </g>
+</svg>

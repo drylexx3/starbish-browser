@@ -1,0 +1,38 @@
+<!-- 23. The Navy Shield & White Star Diamond: Pure security, Mullvad & Brave corporate hybrid -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Deep Dark Carbon Slate -->
+  <rect width="512" height="512" rx="116" fill="#06080D"/>
+
+  <defs>
+    <linearGradient id="shieldNavy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(256, 256)">
+    <!-- Deep Navy Security Shield -->
+    <path d="M 0,-174 
+             C 105,-174 175,-142 186,-102 
+             C 186,62 114,166 0,206 
+             C -114,166 -186,62 -186,-102 
+             C -175,-142 -105,-174 0,-174 Z" 
+          fill="url(#shieldNavy)" stroke="#1E40AF" stroke-width="6"/>
+
+    <!-- Fine Pure White Shield Border Rim (Sleek hairline) -->
+    <path d="M 0,-154 
+             C 90,-154 154,-126 162,-92 
+             C 162,50 98,142 0,178 
+             C -98,142 -162,50 -162,-92 
+             C -154,-126 -90,-154 0,-154 Z" 
+          fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.85"/>
+
+    <!-- Sharp Center Star Diamond in Brilliant Pure White -->
+    <polygon points="0,-104 28,-24 104,0 28,24 0,104 -28,24 -104,0 -28,-24" fill="#FFFFFF"/>
+
+    <!-- Subtle Navy Center Inlay -->
+    <polygon points="0,-50 14,-12 50,0 14,12 0,50 -14,12 -50,0 -14,-12" fill="#1E3A8A"/>
+    <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
+  </g>
+</svg>

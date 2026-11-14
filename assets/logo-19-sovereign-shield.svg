@@ -1,0 +1,26 @@
+<!-- 19. The Sovereign Privacy Shield: Cloudflare / Brave enterprise aesthetic -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Crisp Matte Slate Background -->
+  <rect width="512" height="512" rx="114" fill="#020617"/>
+
+  <!-- Minimalist Corporate Shield -->
+  <g transform="translate(256, 256)">
+    <!-- Shield Outer Profile (Bold, modern security silhouette) -->
+    <path d="M 0,-170 
+             C 100,-170 170,-140 180,-100 
+             C 180,60 110,160 0,200 
+             C -110,160 -180,60 -180,-100 
+             C -170,-140 -100,-170 0,-170 Z" 
+          fill="#0F172A" stroke="#1E293B" stroke-width="8"/>
+
+    <!-- Sharp 4-Pointed Navigational Star (Negative Space / Pure White & Flame Orange) -->
+    <!-- Star Left Half (White) -->
+    <path d="M 0,-110 L 0,80 L -80,-15 Z" fill="#F8FAFC"/>
+    <!-- Star Right Half (Electric Flame Orange - Brave accent) -->
+    <path d="M 0,-110 L 0,80 L 80,-15 Z" fill="#FF5500"/>
+    
+    <!-- Top & Bottom Point Accents -->
+    <polygon points="0,-110 18,-60 0,-70 -18,-60" fill="#FFFFFF"/>
+    <polygon points="0,80 18,30 0,40 -18,30" fill="#E04400"/>
+  </g>
+</svg>

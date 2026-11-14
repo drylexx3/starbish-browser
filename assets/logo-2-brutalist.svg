@@ -1,0 +1,8 @@
+<!-- 2. Brutalist Monochrome: Stark black & white, developer/hacker privacy aesthetic -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <rect width="256" height="256" fill="#000000"/>
+  <circle cx="128" cy="128" r="96" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <!-- Sharp 4-point starburst aperture with crosshair -->
+  <path d="M 128 48 L 138 118 L 208 128 L 138 138 L 128 208 L 118 138 L 48 128 L 118 118 Z" fill="#FFFFFF"/>
+  <circle cx="128" cy="128" r="14" fill="#000000"/>
+</svg>

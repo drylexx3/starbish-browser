@@ -1,0 +1,20 @@
+<!-- 3. Minimal Nautical Crest: Clean single-color Japanese/Maritime Mon style, solid cobalt on white -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <!-- Pure, symmetrical five-arm Starfish with rounded modern tips and center circle -->
+  <g fill="#0284C7">
+    <!-- Starfish arms with organic soft geometric contour -->
+    <path d="M 128 40 
+             C 134 76, 148 94, 184 102
+             C 216 108, 222 124, 206 142
+             C 176 154, 168 174, 166 206
+             C 148 220, 134 212, 128 186
+             C 122 212, 108 220, 90 206
+             C 88 174, 80 154, 50 142
+             C 34 124, 40 108, 72 102
+             C 108 94, 122 76, 128 40 Z" fill="#38BDF8"/>
+    <!-- Center white negative cutout ring -->
+    <circle cx="128" cy="138" r="22" fill="#0F172A"/>
+    <circle cx="128" cy="138" r="10" fill="#38BDF8"/>
+  </g>
+</svg>

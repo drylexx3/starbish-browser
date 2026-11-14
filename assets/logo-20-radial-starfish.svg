@@ -1,0 +1,45 @@
+<!-- 20. Geometric Radial Starfish: Stripe / Figma / Starlink modern tech style -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Clean, elegant slate canvas -->
+  <rect width="512" height="512" rx="114" fill="#0B0F19"/>
+
+  <defs>
+    <linearGradient id="armBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="armViolet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 5 Radial Symmetrical Geometric Capsule Arms -->
+  <g transform="translate(256, 256)">
+    <!-- Arm 1: 0 deg (Top) -->
+    <g transform="rotate(0)">
+      <rect x="-24" y="-170" width="48" height="120" rx="24" fill="url(#armBlue)"/>
+    </g>
+    <!-- Arm 2: 72 deg -->
+    <g transform="rotate(72)">
+      <rect x="-24" y="-170" width="48" height="120" rx="24" fill="url(#armBlue)"/>
+    </g>
+    <!-- Arm 3: 144 deg -->
+    <g transform="rotate(144)">
+      <rect x="-24" y="-170" width="48" height="120" rx="24" fill="url(#armViolet)"/>
+    </g>
+    <!-- Arm 4: 216 deg -->
+    <g transform="rotate(216)">
+      <rect x="-24" y="-170" width="48" height="120" rx="24" fill="url(#armViolet)"/>
+    </g>
+    <!-- Arm 5: 288 deg -->
+    <g transform="rotate(288)">
+      <rect x="-24" y="-170" width="48" height="120" rx="24" fill="url(#armBlue)"/>
+    </g>
+
+    <!-- Center White Negative Ring (Precision Camera Aperture / Focus) -->
+    <circle cx="0" cy="0" r="46" fill="#0B0F19"/>
+    <circle cx="0" cy="0" r="32" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="14" fill="#0B0F19"/>
+  </g>
+</svg>

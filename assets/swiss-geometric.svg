@@ -1,0 +1,23 @@
+<!-- Style 2: Swiss Minimalist / Paul Rand style. Pure iconic geometry, flat colors, timeless graphic design -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <!-- Clean white / light background (zero dark crypto gamer vibe) -->
+  <rect width="256" height="256" fill="#F8FAFC"/>
+
+  <!-- Iconic bold Starbish mark: 5 overlapping clean geometric petals forming a star & vortex -->
+  <g transform="translate(128, 128)">
+    <!-- Arm 1: Top (Deep Indigo) -->
+    <path d="M 0,-100 C 35,-100 65,-60 65,-20 L 0,0 Z" fill="#1E293B"/>
+    <!-- Arm 2: Right (Cobalt Blue) -->
+    <path d="M 95,-31 C 106,3 85,45 50,60 L 0,0 Z" fill="#2563EB"/>
+    <!-- Arm 3: Bottom Right (Cyan) -->
+    <path d="M 59,81 C 31,102 -15,102 -40,80 L 0,0 Z" fill="#0EA5E9"/>
+    <!-- Arm 4: Bottom Left (Teal) -->
+    <path d="M -59,81 C -85,60 -95,15 -75,-20 L 0,0 Z" fill="#0D9488"/>
+    <!-- Arm 5: Top Left (Amber/Coral accent) -->
+    <path d="M -95,-31 C -85,-65 -45,-95 -10,-95 L 0,0 Z" fill="#F97316"/>
+
+    <!-- Crisp Center Aperture / Compass -->
+    <circle cx="0" cy="0" r="16" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="8" fill="#1E293B"/>
+  </g>
+</svg>

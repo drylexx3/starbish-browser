@@ -1,0 +1,45 @@
+{
+  "name": "starbish-browser",
+  "version": "1.0.0",
+  "description": "Starbish Browser - Privacy-first web browser combining Mullvad zero-telemetry & amnesic security with Brave speed and ad-blocking.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --linux deb AppImage"
+  },
+  "keywords": [
+    "browser",
+    "privacy",
+    "chromium",
+    "adblocker",
+    "mullvad",
+    "brave",
+    "starbish"
+  ],
+  "author": "drylexx3",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@ghostery/adblocker-electron": "^2.4.45",
+    "cross-fetch": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.starbish.browser",
+    "productName": "Starbish Browser",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Network;WebBrowser;",
+      "icon": "assets/icon.png"
+    }
+  }
+}

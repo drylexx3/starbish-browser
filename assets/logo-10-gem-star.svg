@@ -1,0 +1,25 @@
+<!-- 10. Starmie / Mystic Gem Star: 90s anime & Zelda gaming aesthetic with a radiant ruby core -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <rect width="256" height="256" rx="54" fill="#0F1026"/>
+  <g transform="translate(128, 128)">
+    <!-- 10-pointed dual star in Mystic Indigo & Lavender -->
+    <!-- Back Star (Rotated 36 deg) -->
+    <polygon points="0,-88 18,-28 78,-58 38,0 84,36 18,36 0,92 -18,36 -84,36 -38,0 -78,-58 -18,-28" fill="#4338CA"/>
+    <!-- Front Star -->
+    <polygon points="0,-82 24,-24 80,-24 36,12 54,68 0,34 -54,68 -36,12 -80,-24 -24,-24" fill="#6366F1"/>
+
+    <!-- Gold Core Setting -->
+    <circle cx="0" cy="0" r="32" fill="#F59E0B" stroke="#D97706" stroke-width="3"/>
+    
+    <!-- Faceted Central Ruby Gemstone -->
+    <polygon points="0,-22 18,-10 18,10 0,22 -18,10 -18,-10" fill="#EF4444"/>
+    <polygon points="0,-22 18,-10 0,0" fill="#F87171"/>
+    <polygon points="0,-22 -18,-10 0,0" fill="#DC2626"/>
+    <polygon points="-18,-10 -18,10 0,0" fill="#B91C1C"/>
+    <polygon points="-18,10 0,22 0,0" fill="#991B1B"/>
+    <polygon points="0,22 18,10 0,0" fill="#DC2626"/>
+
+    <!-- Gem Highlight -->
+    <circle cx="-6" cy="-6" r="3" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+</svg>

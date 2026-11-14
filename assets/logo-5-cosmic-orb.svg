@@ -1,0 +1,27 @@
+<!-- 5. Planetary Cosmic Orb: Firefox/Chrome inspired celestial sphere with an orbital ring -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <rect width="256" height="256" rx="56" fill="#0C0D14"/>
+  <defs>
+    <radialGradient id="planetSphere" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Orbital Ring Behind Planet -->
+  <path d="M 40 148 C 45 105, 185 75, 216 108" fill="none" stroke="url(#ringGrad)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Core Celestial Orb / Planet -->
+  <circle cx="128" cy="128" r="64" fill="url(#planetSphere)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Star Navigation Diamond in Center of Planet -->
+  <polygon points="128,88 138,128 168,128 142,142 152,168 128,150 104,168 114,142 88,128 118,128" fill="#FFFFFF" opacity="0.95"/>
+
+  <!-- Orbital Ring In Front of Planet -->
+  <path d="M 216 108 C 210 152, 70 182, 40 148" fill="none" stroke="url(#ringGrad)" stroke-width="12" stroke-linecap="round"/>
+</svg>

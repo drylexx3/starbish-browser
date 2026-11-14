@@ -1,0 +1,96 @@
+<!-- Orca Refinement 1: The Leaping Crescent Orca (Pure Firefox dynamic, anatomically elegant, crisp white markings) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Dark Obsidian Background (Concept 21 frame) -->
+  <rect width="512" height="512" rx="116" fill="#080A10"/>
+
+  <defs>
+    <!-- Deep Navy to Royal Gradient -->
+    <linearGradient id="orcaGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="starGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(256, 256)">
+    <!-- Navy Circular Boundary Ring (User's preferred framing) -->
+    <circle cx="0" cy="0" r="184" fill="none" stroke="#172554" stroke-width="5"/>
+    <circle cx="0" cy="0" r="166" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-dasharray="6 12" opacity="0.6"/>
+
+    <!-- Central Floating Star Navigation Gem (The Starbish Core) -->
+    <!-- Faceted Polaris Star -->
+    <polygon points="0,-42 0,0 12,-14" fill="#FFFFFF"/>
+    <polygon points="0,-42 0,0 -12,-14" fill="#1E3A8A"/>
+    <polygon points="40,-12 0,0 14,-10" fill="#FFFFFF"/>
+    <polygon points="40,-12 0,0 16,6" fill="#172554"/>
+    <polygon points="25,34 0,0 16,6" fill="#FFFFFF"/>
+    <polygon points="25,34 0,0 0,18" fill="#1E3A8A"/>
+    <polygon points="-25,34 0,0 0,18" fill="#FFFFFF"/>
+    <polygon points="-25,34 0,0 -16,6" fill="#172554"/>
+    <polygon points="-40,-12 0,0 -16,6" fill="#FFFFFF"/>
+    <polygon points="-40,-12 0,0 -14,-10" fill="#1E3A8A"/>
+    <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+
+    <!-- The Majestic Orca: Sweeping circular silhouette -->
+
+    <!-- Main Dorsal Fin (Iconic, tall, curved back) -->
+    <path d="M -15,-130 
+             C -2,-175 18,-185 30,-155 
+             C 22,-140 10,-130 0,-124 Z" 
+          fill="#172554" stroke="#1E40AF" stroke-width="2"/>
+
+    <!-- Main Dark Navy Body (Flowing curve from tail at bottom left, over top, diving on the right) -->
+    <path d="M -105,115
+             C -135,70 -140,-10 -105,-75
+             C -70,-135 15,-155 90,-125
+             C 145,-100 165,-40 155,20
+             C 145,75 105,115 65,110
+             C 45,108 55,80 75,65
+             C 105,45 115,-5 90,-50
+             C 65,-95 -10,-95 -55,-60
+             C -85,-35 -95,20 -75,70
+             C -68,90 -75,105 -90,115 Z"
+          fill="url(#orcaGrad1)" stroke="#1E40AF" stroke-width="3"/>
+
+    <!-- Pectoral Flipper (Paddle shaped, sweeping back) -->
+    <path d="M 85,-20 
+             C 125,-10 145,15 130,35 
+             C 110,40 90,20 80,0 Z" 
+          fill="#0F172A" stroke="#1E3A8A" stroke-width="2"/>
+
+    <!-- Tail Flukes (Bifurcated, powerful whale tail) -->
+    <path d="M -105,115 
+             C -120,135 -145,155 -165,150 
+             C -155,130 -130,118 -115,112
+             C -130,105 -155,95 -160,75
+             C -140,75 -118,95 -105,115 Z" 
+          fill="#1E3A8A" stroke="#1E40AF" stroke-width="2.5"/>
+
+    <!-- Saddle Patch (Grey/Navy crescent behind dorsal fin) -->
+    <path d="M -5,-122 C 15,-124 35,-115 45,-98 C 25,-105 5,-110 -5,-122 Z" fill="#3B82F6" opacity="0.4"/>
+
+    <!-- Pure Brilliant White Belly & Throat Patch -->
+    <path d="M 152,10
+             C 160,-25 142,-70 102,-95
+             C 85,-80 88,-50 115,-20
+             C 125,-5 125,25 110,50
+             C 95,75 75,90 55,95
+             C 75,108 105,95 130,65
+             C 145,45 150,25 152,10 Z" 
+          fill="#FFFFFF"/>
+
+    <!-- Pure Brilliant White Iconic Oval Eye Patch -->
+    <ellipse cx="124" cy="-55" rx="18" ry="9" transform="rotate(-35 124 -55)" fill="#FFFFFF"/>
+
+    <!-- Cute & Sleek Intelligent Eye (Dark Navy pupil with white spark) -->
+    <circle cx="140" cy="-42" r="4.5" fill="#080A10"/>
+    <circle cx="142" cy="-44" r="1.8" fill="#FFFFFF"/>
+
+    <!-- Snout Smile Line (Subtle friendly/confident curve) -->
+    <path d="M 155,2 C 150,15 138,20 128,18" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
